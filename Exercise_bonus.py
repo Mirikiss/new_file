@@ -1,0 +1,1 @@
+print(*[f'\n{i} x {j} = {i*j}\t{i+1} x {j} = {(i+1)*(j)}\t{i+2} x {j} = {(i+2)*(j)}\t{i+3} x {j} = {(i+3)*(j)}\n' for i in (2,6) for j in range(2, 10) ])
