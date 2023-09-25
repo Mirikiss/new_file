@@ -1,3 +1,5 @@
-from new import game
+# from new import game
 
-game(1, 100, 10)
+# game(1, 100, 10)
+
+

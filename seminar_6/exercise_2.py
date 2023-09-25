@@ -17,6 +17,6 @@ def find_number(min_nmb: int, max_nmb: int, counter: int):
     else:
         return 'поппытки закончились'
         
-print(find_number(1, 10, 5))
+#print(find_number(1, 10, 5))
 
 
