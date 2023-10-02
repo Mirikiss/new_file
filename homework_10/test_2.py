@@ -44,11 +44,11 @@ class Animale:
         else:
             raise ValueError('Такого нет')
 
-#ani = Animale()
+ani = Animale()
 
-cat = Animale().creat_animale('Cat', 'Myrka', 5, 'sleep')
-# dog = ani.creat_animale('Dog', 'Palcan', 10, 'bark')
-# bird = ani.creat_animale('Bird', 'Kesha', 2, 'fly')
+cat = ani.creat_animale('Cat', 'Myrka', 5, 'sleep')
+dog = ani.creat_animale('Dog', 'Palcan', 10, 'bark')
+bird = ani.creat_animale('Bird', 'Kesha', 2, 'fly')
 #carrot = ani.creat_animale('carrot', 5, 5, 5)
 
 print(cat.show_data())
